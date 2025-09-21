@@ -17,7 +17,7 @@ def main():
     Asteroid.containers = (asteroids, updateable, drawable)
     AsteroidField.containers = updatable
     asteroid_field = AsteroidField()
-    
+
     print("Starting Asteroids!")
     print(f"Screen width: {SCREEN_WIDTH}")
     print(f"Screen height: {SCREEN_HEIGHT}")
